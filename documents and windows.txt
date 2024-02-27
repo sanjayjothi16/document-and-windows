@@ -1,0 +1,14 @@
+THE DIFFERENCE BETWEEN THE DOCUMENTS AND WINDOWS OBJECT
+ 
+*so. the 'document'object is related to the structure and content of the HTML documents.
+*while the 'windows'object is more concerned with the browser windows and provides globle functionalities.they are both part of the DOM but serve differnet purpose
+
+DOCUMENT OBJECT:
+*the 'document'object represent the entire HTML document in the DOM
+*it provides method and properties to interact with the content of the document such as selecting elements,manipulating their attributes and handling events.
+*example of 'document'properties include 'document.getelementbyId()','document.queryselector()'
+WINDOWS OBJECT:
+*the 'windows'object represents the browser windows or tab in which the web page is displayed
+*it is global object and serves as the entry point for many browser-related operations.
+*it includes properties like 'windows.location'(for the current URL)'windows.innerwidth'
+(for the inner width of the browser window),and the methods like 'window,alert()'
